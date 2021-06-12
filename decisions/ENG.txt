@@ -32,7 +32,6 @@ political_decisions = {
 			EIC = {
 				exists = yes
 				vassal_of = THIS
-				civilized = no
 			}
 			NOT = { has_country_flag = india_annexed }
 		}
@@ -47,7 +46,7 @@ political_decisions = {
 			inherit = EIC
 			remove_country_modifier = crown_rule
 			set_country_flag = india_annexed
-			badboy = 40
+			badboy = 15
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -62,19 +61,16 @@ political_decisions = {
 				CAN = {
 					exists = yes
 					vassal_of = THIS
-					government = colonial_company
 				}
 				RPL = {
 					exists = yes
 					vassal_of = THIS
-					government = colonial_company
 				}
 			}
 			NOT = { has_country_flag = canada_annexed }
 		}
 
 		allow = {
-			CAN = { government = colonial_company }
 			NOT = { badboy = 1 }
 		}
 
@@ -82,7 +78,7 @@ political_decisions = {
 			inherit = CAN
 			inherit = RPL
 			set_country_flag = canada_annexed
-			badboy = 15
+			badboy = 5
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -96,7 +92,6 @@ political_decisions = {
 			SAF = {
 				exists = yes
 				vassal_of = THIS
-				government = colonial_company
 			}
 			NOT = { has_country_flag = south_africa_annexed }
 		}
@@ -109,7 +104,7 @@ political_decisions = {
 		effect = {
 			inherit = SAF
 			set_country_flag = south_africa_annexed
-			badboy = 10
+			badboy = 5
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -123,20 +118,18 @@ political_decisions = {
 			AST = {
 				exists = yes
 				vassal_of = THIS
-				government = colonial_company
 			}
 			NOT = { has_country_flag = australia_annexed }
 		}
 
 		allow = {
-			AST = { government = colonial_company }
 			NOT = { badboy = 1 }
 		}
 
 		effect = {
 			inherit = AST
 			set_country_flag = australia_annexed
-			badboy = 10
+			badboy = 5
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -150,20 +143,18 @@ political_decisions = {
 			NZL = {
 				exists = yes
 				vassal_of = THIS
-				government = colonial_company
 			}
 			NOT = { has_country_flag = new_zealand_annexed }
 		}
 
 		allow = {
-			NZL = { government = colonial_company }
 			NOT = { badboy = 1 }
 		}
 
 		effect = {
 			inherit = NZL
 			set_country_flag = new_zealand_annexed
-			badboy = 5
+			badboy = 2.5
 		}
 		ai_will_do = { factor = 0 }
 	}

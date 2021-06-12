@@ -87,8 +87,8 @@ sea_zone = {
 }
 
 land_province = {
-	max_attrition = 5			#Maximum Attrition is 5
-	supply_limit = 5				
+	max_attrition = 2.5			#Maximum Attrition is 5
+	supply_limit = 30				
 }
 
 
@@ -124,7 +124,7 @@ nationalism = {
 infrastructure = {
 	local_factory_throughput = 1		#each % of infra boost throughput 1%
 	local_rgo_output = 1			#each % of infra boost throughput 1%
-	supply_limit = 4
+	supply_limit = 8
 }
 
 
@@ -138,7 +138,7 @@ base_values = {
 
 war = {
 	max_war_exhaustion = 100			#base max at war.
-	badboy = -0.033
+	badboy = -0.08
 }
 
 peace = {
@@ -173,6 +173,7 @@ bad_debter = {
 }
 
 great_power = {
+	badboy = -0.1
 	prestige = 0.1
 	research_points = 1.5
 	diplomatic_points_modifier = 1.0
@@ -180,6 +181,7 @@ great_power = {
 }
 
 second_power = {
+	badboy = -0.05
 	prestige = 0.05
 	research_points = 1.25
 	diplomatic_points_modifier = 0.25
