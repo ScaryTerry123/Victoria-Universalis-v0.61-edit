@@ -1,6 +1,8 @@
 1836.1.2 = {
 	capital = 300
 	primary_culture = british
+	culture = anglo_canadian
+	culture = australian
 	religion = protestant
 	government = hms_government
 	plurality = 30
@@ -109,6 +111,8 @@
 1836.1.1 = {
 	capital = 300
 	primary_culture = british
+	culture = anglo_canadian
+	culture = australian
 	religion = protestant
 	government = hms_government
 	plurality = 30

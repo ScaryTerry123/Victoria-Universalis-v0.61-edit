@@ -39,7 +39,7 @@ govt_flag =
 	penal_system = capital_punishment
 	child_labor = child_labor_restricted
 	citizens_rights = primary_culture_only
-	border_policy = quota_immigration
+	border_policy = open_borders
 	centralization = regionalism
 	colonial_migration = no_colonial_migration
 
@@ -117,7 +117,7 @@ govt_flag =
 	penal_system = capital_punishment
 	child_labor = child_labor_restricted
 	citizens_rights = primary_culture_only
-	border_policy = quota_immigration
+	border_policy = open_borders
 	centralization = regionalism
 	colonial_migration = no_colonial_migration
 
